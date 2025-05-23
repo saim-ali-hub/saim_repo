@@ -11,31 +11,29 @@ Create a directory “RHCSA9_batch_2024” on node1 and on server as well.
 
 Run the following command on Both “server” and “node1”.
 
-git clone https://github.com/zee-tek/TEMP_REPO.git
+git clone  https://github.com/saim-ali-hub/saim_script.git
+
+IMPORTANT NOTE: DON'T OPEN OR READ THE SCRIPTS. OTHERWISE THERE IS NO POINT TO TAKE THIS EVALUATION.
 
 ON NFS-Server:
-cd TEMP_REPO
-execute server-script
+cd saim_script
+execute server-config-script
+execute exam-script
+
+Open browser and punch you node1’s ip-address/saim_repo. Now open each file in new window. 
+
+Read question number 1 and switch to node1 
 
 ON Client:
-
-execute client-script
-execute mess_up_system     
-IMPORTANT NOTE: DON'T OPEN OR READ THIS SCRIPT. OTHERWISE THERE IS NO POINT TO TAKE THIS EVALUATION.
-
+cd saim_script
+execute node1_mess_up
+     
 -----------------------------------------------------------------------------
 When recovering root password, please give password 'redhat'
 Also use same password for all users you create or for login to any user account
+
 
 Yum Repository URLs
 -----------------------------------------------------------------------------
 BaseOS: http://ec2-54-162-204-86.compute-1.amazonaws.com/BaseOs/
 AppStream: http://ec2-54-162-204-86.compute-1.amazonaws.com/AppStream/
-
-Container Image Registry
-----------------------------------------------------------------------------
-registry.access.redhat.com
-Username: <your redhat username>
-Password: <your redhat password>
-
-At the end of the exam Reboot the system.
