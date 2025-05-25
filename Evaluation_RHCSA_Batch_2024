@@ -8,6 +8,6 @@
      ii. ‘chris’ should not have access to login shell and not a member of admins group. 
     iii. Give SUDO privilege to group "admins" that members of group "admins” can run administrative commands without entering password. 
      iv. Change the umask value for user 'bob' in a way that new files created by user 'bob' should get default permissions user="read write" group="read write" other=read. 
-7. Configure password policy so all new users will have maximum password usage period of 90 days. 
-8. Force the user "max" to change password on first login. Set the account expiration to 45 days for user "max”
+7. Force the user "max" to change password on first login. Set the account expiration to 45 days for user "max”
+8. Configure password policy so all new users will have maximum password usage period of 90 days. 
 
