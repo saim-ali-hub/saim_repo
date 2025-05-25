@@ -1,5 +1,13 @@
-1. Recover root password.
-2. Assign Static IP 192.168.100.120 to node1. Netmask: 255.255.255.0 Gateway: 192.168.1.1 NameServer: 192.168.1.1. 
-3. Configure YUM repos, Repositories URLs can be found on exam Instruction page.
-4. Configure autofs. The share nfs-server-hostname-or-ip:/remoteusers/user1 should be mounted on /rhome/user1. 
-5. Configure chrony such that time is synchronized with "server" i.e. ntp server.
+1.	Recover root password 
+2.	Assign Static IP 192.168.100.120 to node1. Netmask: 255.255.255.0 Gateway: 192.168.1.1 NameServer: 192.168.1.1. 
+3.	Configure YUM repos, Repositories URLs can be found on exam Instruction page.
+4.	Configure chrony such that time is synchronized with "server" i.e.  ntp server. 
+5.	Configure autofs. The share nfs-server-hostname-or-ip:/remoteusers/user1 should be mounted on /rhome/user1. 
+6.	Perform following Tasks:
+     i.	Create group "admins" and Add following users: 'max', 'bob', 'chris'. 'max' and 'bob' should be a part of secondary group "admins". 
+    ii.	‘chris’ should not have access to login shell and not a member of admins group. 
+   iii.	Give SUDO privilege to group "admins" that members of group "admins” can run administrative commands without entering password. 
+    iv.	Change the umask value for user 'bob' in a way that new files created by user 'bob' should get default permissions user="read write" group="read write" other=read. 
+7.	Configure password policy so all new users will have maximum password usage period of 90 days. 
+8.	Force the user "max" to change password on first login. Set the account expiration to 45 days for user "max”
+
