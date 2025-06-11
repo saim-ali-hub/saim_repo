@@ -21,5 +21,14 @@
 14. Configure system tuning so that the recommended profile is selected. 
 15. As user “max”, create a cron job that runs /bin/echo “I am preparing RHCSA Exam” at 2:45PM every day, every week, every month.
 16. Make sure user "natasha" should not be able to create cron job.  
+17. Create a logical volume and shrinking it.
+Task1: Create a volume group name "vg1" on /dev/sdb1 physical volume, create 400M logical volume "lv1", format with ext4 filesystem, mount it on /app1.
+Task2: Shrink the filesystem size to 300M. After shrinking if size is between 250 and 300M that is also acceptable.
+18. Creating a logical volume and extending it. 
+Task1: create a volume group name "vg2" on /dev/sdb2 physical volume, create 300M logical volume "lv2", format with ext4 filesystem, mount it on /app2. 
+Task2: Then Extend the filesystem to 500M. After extending if size is between 450 and 500M that is also acceptable.
+19. Configure LVM such a way that A logical volume called "lv3" by assigning 50 extents. It should be formatted with ext4 filesystem and mounted on /app3. "lv3" logical volume is a part of volume group "vg3" which has a PE size of 8MiB. The physical volume is created on /dev/sdb3.
+20. Create a SWAP partition of 512 MB on /dev/sdb4 and mount it permanently.
+
 
 
