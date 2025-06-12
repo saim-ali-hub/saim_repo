@@ -19,7 +19,7 @@
 12. Create an archive of /usr/bin and call it “archive.tar” under /tmp and compress it with bzip2.
 13. Preserve Journals. Redirect the output of previous boot logs to /var/tmp/boot_logs. 
 14. Configure system tuning so that the recommended profile is selected. 
-15. As user “max”, create a cron job that runs logger -i “I am preparing RHCSA Exam” at 2:45PM every day, every week, every month.
+15. As user “max”, create a cron job that runs logger -i “I am preparing RHCSA9 Exam” at 2:45PM every day, every week, every month.
 16. Make sure user "natasha" should not be able to create cron job.  
 17. Create a logical volume and shrinking it.
 Task1: Create a volume group name "vg1" on /dev/sdb1 physical volume, create 400M logical volume "lv1", format with ext4 filesystem, mount it on /app1.
