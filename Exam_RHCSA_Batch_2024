@@ -29,6 +29,18 @@ Task1: create a volume group name "vg2" on /dev/sdb2 physical volume, create 300
 Task2: Then Extend the filesystem to 500M. After extending if size is between 450 and 500M that is also acceptable.
 19. Configure LVM such a way that A logical volume called "lv3" by assigning 50 extents. It should be formatted with ext4 filesystem and mounted on /app3. "lv3" logical volume is a part of volume group "vg3" which has a PE size of 8MiB. The physical volume is created on /dev/sdb3.
 20. Create a SWAP partition of 512 MB on /dev/sdb4 and mount it permanently.
+21. Manage permissions and access of the users for files.
+    a. Copy the file /etc/fstab to /var/tmp. Configure the permissions of /var/tmp/fstab so that:
+        The file /var/tmp/fstab is owned by the root user
+        The file /var/tmp/fstab belongs to the group root
+        The file /var/tmp/fstab should not be executable by anyone
+        The user "natasha" is able to read and write /var/tmp/fstab
+        The user "harry" can neither write nor read /var/tmp/fstab
+        All other users (current or future) have the ability to read /var/tmp/fstab
+    b. Create a directory /tmp/data2 as “linda” user and give read write access to 'bob' on this directory without making him owner and don't add into the group either, there should be no access for others. 
+22. Login as linda user, create a container image from http://<server_ip>/Containerfile and give name "webimage". 
+23. As local user linda, create a container called "web_container1" using image "webimage". Map port of container port 8080 to port 8090. Create directories /opt/myactions and /opt/myplans. Mount /opt/myactions inside container on /var/www/html and /opt/myplans on /tmp/data1. Also, configure this container to start 
+automatically as systemd service after reboot. Also create a file "my_file1" in /opt/myplan that should be changed in to pdf in /tmp/data1.
 
 
 
