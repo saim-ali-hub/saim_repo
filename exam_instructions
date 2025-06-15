@@ -31,3 +31,11 @@ Yum Repository URLs
 -----------------------------------------------------------------------------
 BaseOS: http://ec2-54-162-204-86.compute-1.amazonaws.com/BaseOs/
 AppStream: http://ec2-54-162-204-86.compute-1.amazonaws.com/AppStream/
+
+Container Image Registry
+----------------------------------------------------------------------------
+registry.access.redhat.com
+Username: <your redhat username>
+Password: <your redhat password>
+
+At the end of the exam Reboot the system.
