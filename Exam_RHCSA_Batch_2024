@@ -47,7 +47,7 @@ Task2: Then Extend the filesystem to 500M. After extending if size is between 45
     b) As local user kevin, create a container called "myweb1" from image "new_webimage". Create directory /opt/web and /opt/programs. Mount /opt/web inside container on /tmp/mnt1 and /opt/programs on /tmp/mnt2. Also, configure this container to start automatically as systemd service after reboot. Also create a file "web_file1" in /opt/web that should appear in pdf in /tmp/mnt1
 23. Configure Autofs:
     a) To automatically mount the below NFS shares on abc.example.com machine at /automount directory.
-       192.168.55.151:/public & 192.168.55.151:/private
+       192.168.85.131:/public & 192.168.85.131:/private
     b) The public nfs share should have read only access for all users.
     c) The private nfs share should have read write access for all users.
     d) Both shares should get automatically unmount
