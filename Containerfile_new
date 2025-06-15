@@ -1,0 +1,3 @@
+FROM registry.access.redhat.com/rhscl/httpd-24-rhel7
+RUN mkdir /tmp/mnt1
+RUN mkdir /tmp/mnt2
