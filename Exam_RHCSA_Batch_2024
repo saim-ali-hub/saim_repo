@@ -51,3 +51,12 @@ Task2: Then Extend the filesystem to 500M. After extending if size is between 45
     b) The public nfs share should have read only access for all users.
     c) The private nfs share should have read write access for all users.
     d) Both shares should get automatically unmount
+24. Use find command and perform following tasks:
+    a) Find all the files under /usr/share directory that are newer than 30 days and copy them in /tmp/new_dir directory. 
+    b) Find all files own by user "linda" in /opt and copy them to /var/tmp/linda. 
+    c) Filter "Root" string from /etc/ssh/sshd_config with line numbering and redirect into /var/tmp/string_output
+    d) Create a program which look for files own by group admins and copy them to /tmp/new_dir.
+25. Use grep command:
+    a) Display all lines from /etc/ssh/sshd_config that contain the string "root", including blank lines, with line numbers.
+    b) Remove all empty lines from a file and redirect the filtered output to another file.
+
