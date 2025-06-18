@@ -57,6 +57,6 @@ Task2: Then Extend the filesystem to 500M. After extending if size is between 45
     c) Filter "Root" string from /etc/ssh/sshd_config with line numbering and redirect into /var/tmp/string_output
     d) Create a program which look for files own by group admins and copy them to /tmp/new_dir.
 25. Use grep command:
-    a) Display all lines from /etc/ssh/sshd_config that contain the string "root", including blank lines, with line numbers.
-    b) Remove all empty lines from a file and redirect the filtered output to another file.
+    a) Find all lines from /etc/ssh/sshd_config that contain the string "root", including blank lines, with line numbers and store in file /var/tmp/sshd_output.
+    b) Remove all empty lines from a file /etc/ssh/sshd_config and redirect the filtered output to another file /tmp/new_file.
 
