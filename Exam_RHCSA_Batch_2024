@@ -40,10 +40,10 @@ Task2: Then Extend the filesystem to 500M. After extending if size is between 45
         All other users (current or future) have the ability to read /var/tmp/fstab
     b. Create a directory /tmp/data2 as “linda” user and give read write access to 'bob' on this directory without making him owner and don't add into the group either, there should be no access for others. 
 21. Container Management I
-    a) Login as linda user, create a container image from http://<server_ip>/Containerfile and give name "webimage". 
+    a) Login as linda user, create a container image from http://<server_ip>/saim-repo/Containerfile and give name "webimage". 
     b) As local user linda, create a container called "web_container1" using image "webimage". Map port of container port 8080 to port 8090. Create directories /opt/myactions and /opt/myplans. Mount /opt/myactions inside container on /var/www/html and /opt/myplans on /tmp/data1. Also, configure this container to start automatically as systemd service after reboot. Also create a file "my_file1" in /opt/myplans that should appear in pdf in /tmp/data1.
 22. Container Management II
-    a) Login as kevin user, create a container image from http://<server_ip>/Containerfile_new and give name "new_webimage" 
+    a) Login as kevin user, create a container image from http://<server_ip>/saim-repo/Containerfile_new and give name "new_webimage" 
     b) As local user kevin, create a container called "myweb1" from image "new_webimage". Create directory /opt/web and /opt/programs. Mount /opt/web inside container on /tmp/mnt1 and /opt/programs on /tmp/mnt2. Also, configure this container to start automatically as systemd service after reboot. Also create a file "web_file1" in /opt/web that should appear in pdf in /tmp/mnt1
 23. Configure Autofs:
     a) To automatically mount the below NFS shares on abc.example.com machine at /automount directory.
