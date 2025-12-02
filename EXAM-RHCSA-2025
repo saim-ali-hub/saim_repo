@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>RHCSA Exam – Task List</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f2f2f2;
+        padding: 20px;
+        line-height: 1.6;
+    }
+    h1 {
+        text-align:center;
+        color:#2c3e50;
+    }
+    .task {
+        background: #fff;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        box-shadow: 0 0 4px #ccc;
+    }
+    .task-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .options {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .options label {
+        margin-right: 20px;
+    }
+    ol, ul {
+        margin-left: 25px;
+    }
+</style>
+</head>
+
+<body>
+
+<h1>RHCSA 2025 – Exam Tasks</h1>
+
+<!-- TEMPLATE FOR EACH QUESTION -->
+<!-- Copy this block when adding new tasks:
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="qX"> Done</label>
+    <label><input type="radio" name="qX"> Revisit</label>
+  </div>
+  <div class="task-title">X. Your task title here</div>
+  Task description...
+</div>
+-->
+
+<!-- TASKS START HERE -->
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q1"> Done</label>
+    <label><input type="radio" name="q1"> Revisit</label>
+  </div>
+  <div class="task-title">1. Recover root password</div>
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q2"> Done</label>
+    <label><input type="radio" name="q2"> Revisit</label>
+  </div>
+  <div class="task-title">2. Assign Static IP</div>
+  Set the following on <b>node1</b>:  
+  <ul>
+    <li>IP: 192.168.100.120</li>
+    <li>Netmask: 255.255.255.0</li>
+    <li>Gateway: 192.168.1.1</li>
+    <li>NameServer: 192.168.1.1</li>
+    <li>Hostname: servera.example.com</li>
+  </ul>
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q3"> Done</label>
+    <label><input type="radio" name="q3"> Revisit</label>
+  </div>
+  <div class="task-title">3. Configure YUM repositories</div>
+  Repository URLs are listed on the Exam Instruction page.
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q4"> Done</label>
+    <label><input type="radio" name="q4"> Revisit</label>
+  </div>
+  <div class="task-title">4. Configure chrony</div>
+  Sync time with NTP server: <b>server</b>.
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q5"> Done</label>
+    <label><input type="radio" name="q5"> Revisit</label>
+  </div>
+  <div class="task-title">5. Configure autofs</div>
+  Mount NFS share: <br>
+  <b>nfs-server:/remoteusers/user1 → /rhome/user1</b>
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q6"> Done</label>
+    <label><input type="radio" name="q6"> Revisit</label>
+  </div>
+  <div class="task-title">6. User & Group Management</div>
+  <ul>
+    <li>Create group <b>admins</b> and users <b>max</b>, <b>bob</b>, <b>chris</b>.</li>
+    <li><b>max</b> & <b>bob</b> must be secondary members of <b>admins</b>.</li>
+    <li><b>chris</b> must have no login shell and not be an admin.</li>
+    <li>Give passwordless sudo to <b>admins</b> group.</li>
+    <li>Change umask for <b>bob</b> to produce: user=rw, group=rw, others=r.</li>
+  </ul>
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q7"> Done</label>
+    <label><input type="radio" name="q7"> Revisit</label>
+  </div>
+  <div class="task-title">7. Password Expiry Rules</div>
+  Force <b>max</b> to change password on first login & set account expiration to 45 days.
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q8"> Done</label>
+    <label><input type="radio" name="q8"> Revisit</label>
+  </div>
+  <div class="task-title">8. Password Policy</div>
+  Set max password usage period for new users to 90 days.
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q9"> Done</label>
+    <label><input type="radio" name="q9"> Revisit</label>
+  </div>
+  <div class="task-title">9. Collaboration Directory</div>
+  Directory: <b>/tmp/developers</b>
+  <ul>
+    <li>Full access for group <b>developers</b>.</li>
+    <li>Users shouldn't delete each other's files.</li>
+    <li>New files inherit group <b>developers</b>.</li>
+  </ul>
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q10"> Done</label>
+    <label><input type="radio" name="q10"> Revisit</label>
+  </div>
+  <div class="task-title">10. Install "RPM Development Tools"</div>
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q11"> Done</label>
+    <label><input type="radio" name="q11"> Revisit</label>
+  </div>
+  <div class="task-title">11. Troubleshoot Webserver</div>
+  Webserver should show: <b>"I am Enjoying RHCSA preparation"</b> on port <b>82</b>.  
+  Do NOT change any configuration files.
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q12"> Done</label>
+    <label><input type="radio" name="q12"> Revisit</label>
+  </div>
+  <div class="task-title">12. Archives</div>
+  Create <b>/tmp/archive.tar.bz2</b> from <b>/usr/bin</b>.
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q13"> Done</label>
+    <label><input type="radio" name="q13"> Revisit</label>
+  </div>
+  <div class="task-title">13. Preserve Journals</div>
+  Redirect logs from previous boot → <b>/var/tmp/boot_logs</b>.
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q14"> Done</label>
+    <label><input type="radio" name="q14"> Revisit</label>
+  </div>
+  <div class="task-title">14. System Tuning</div>
+  Select the recommended tuned profile.
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q15"> Done</label>
+    <label><input type="radio" name="q15"> Revisit</label>
+  </div>
+  <div class="task-title">15. Cron Jobs</div>
+  <ul>
+    <li>As <b>bob</b>: run logger command every minute.</li>
+    <li>Prevent <b>natasha</b> from creating cron jobs.</li>
+  </ul>
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q16"> Done</label>
+    <label><input type="radio" name="q16"> Revisit</label>
+  </div>
+  <div class="task-title">16. LVM – Create & Shrink</div>
+  VG: <b>vg1</b> on /dev/sdb1  
+  LV: <b>lv1</b> → 400M → shrink to ~300M  
+  FS: ext4 → mount: <b>/app1</b>
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q17"> Done</label>
+    <label><input type="radio" name="q17"> Revisit</label>
+  </div>
+  <div class="task-title">17. LVM – Create & Extend</div>
+  VG: <b>vg2</b> on /dev/sdb2  
+  LV: <b>lv2</b> → 300M → extend to 500M  
+  Mount: <b>/app2</b>
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q18"> Done</label>
+    <label><input type="radio" name="q18"> Revisit</label>
+  </div>
+  <div class="task-title">18. LVM – Extent-Based Creation</div>
+  LV: <b>lv3</b> = 50 extents  
+  VG: <b>vg3</b> (PE = 8MiB)  
+  PV: /dev/sdb3  
+  Mount: <b>/app3</b>
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q19"> Done</label>
+    <label><input type="radio" name="q19"> Revisit</label>
+  </div>
+  <div class="task-title">19. Create SWAP</div>
+  512MB swap on <b>/dev/sdb4</b> and mount permanently.
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q20"> Done</label>
+    <label><input type="radio" name="q20"> Revisit</label>
+  </div>
+  <div class="task-title">20. File Permissions & Access</div>
+  <ul>
+    <li>Copy /etc/fstab → /var/tmp, set permissions as described.</li>
+    <li>Create /tmp/data2 as <b>linda</b> and give RW to <b>bob</b> only.</li>
+  </ul>
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q21"> Done</label>
+    <label><input type="radio" name="q21"> Revisit</label>
+  </div>
+  <div class="task-title">21. Container Management I</div>
+  Create container image <b>webimage</b>, container <b>web_container1</b>, mount directories, auto-start, create file inside container mount.
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q22"> Done</label>
+    <label><input type="radio" name="q22"> Revisit</label>
+  </div>
+  <div class="task-title">22. Container Management II</div>
+  Create image <b>new_webimage</b> and container <b>myweb1</b>, mount directories, auto-start, and create file.
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q23"> Done</label>
+    <label><input type="radio" name="q23"> Revisit</label>
+  </div>
+  <div class="task-title">23. Autofs with NFS</div>
+  Auto-mount:
+  <ul>
+    <li>192.168.85.131:/public → RO</li>
+    <li>192.168.85.131:/private → RW</li>
+    <li>Auto unmount required</li>
+  </ul>
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q24"> Done</label>
+    <label><input type="radio" name="q24"> Revisit</label>
+  </div>
+  <div class="task-title">24. find Command Tasks</div>
+  <ul>
+    <li>Find files newer than 30 days under /usr/share → /tmp/new_dir</li>
+    <li>Find all files owned by linda → /var/tmp/linda</li>
+    <li>Filter "Root" from sshd_config → /var/tmp/string_output</li>
+    <li>Create script to copy files owned by group admins → /tmp/new_dir</li>
+  </ul>
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q25"> Done</label>
+    <label><input type="radio" name="q25"> Revisit</label>
+  </div>
+  <div class="task-title">25. grep Command Tasks</div>
+  <ul>
+    <li>Find lines containing "root" with numbering → /var/tmp/sshd_output</li>
+    <li>Remove empty lines from sshd_config → /tmp/new_file</li>
+  </ul>
+</div>
+
+</body>
+</html>
