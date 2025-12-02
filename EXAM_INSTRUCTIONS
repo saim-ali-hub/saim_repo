@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RHCSA 2025 Exam Instructions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        pre {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        .important {
+            color: red;
+            font-weight: bold;
+        }
+        hr {
+            border: 1px solid #bdc3c7;
+        }
+        ul {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>EXAM INSTRUCTIONS</h1>
+    <p>All the tasks in our Evaluation should be performed on <strong>“clone-client” Machine Only</strong>.</p>
+    <hr>
+
+    <h2>On clone-Server:</h2>
+    <ul>
+        <li>Create a directory <strong>RHCSA-2025</strong> on clone-server.</li>
+        <li>CD into <strong>RHCSA-2025</strong> and run the following commands:</li>
+        <pre>
+cd RHCSA-2025
+git clone https://github.com/saim-ali-hub/batch-2025-server.git
+cd batch-2025-server
+./clone-server-config
+        </pre>
+        <li>Open a browser and go to: <strong>&lt;server’s ip-address&gt;/saim_repo</strong>. Open each file in a new window.</li>
+        <li>Read question number 1 and switch to clone-client.</li>
+    </ul>
+
+    <h2>On clone-Client:</h2>
+    <ul>
+        <li>Create a directory <strong>RHCSA-2025</strong> on clone-client.</li>
+        <li>CD into <strong>RHCSA-2025</strong> and run the following commands:</li>
+        <pre>
+cd RHCSA-2025
+git clone https://github.com/saim-ali-hub/batch-2025-client.git
+cd batch-2025-client
+./clone-client
+        </pre>
+    </ul>
+
+    <p class="important">IMPORTANT NOTE: DON'T OPEN OR READ THE SCRIPTS. OTHERWISE THERE IS NO POINT TO TAKE THIS EVALUATION.</p>
+
+    <hr>
+
+    <h2>Password Instructions:</h2>
+    <ul>
+        <li>When recovering root password, please set the new root password to <strong>redhat</strong>.</li>
+        <li>Use the same password for all users you create or for login to any user account.</li>
+    </ul>
+
+    <h2>Network Instructions:</h2>
+    <p>If you have a different network, you can use that network address, but host address should be <strong>xxx.xxx.x.130</strong>.</p>
+
+    <h2>Yum Repository URLs</h2>
+    <ul>
+        <li>BaseOS: <a href="http://ec2-54-162-204-86.compute-1.amazonaws.com/BaseOs/" target="_blank">http://ec2-54-162-204-86.compute-1.amazonaws.com/BaseOs/</a></li>
+        <li>AppStream: <a href="http://ec2-54-162-204-86.compute-1.amazonaws.com/AppStream/" target="_blank">http://ec2-54-162-204-86.compute-1.amazonaws.com/AppStream/</a></li>
+    </ul>
+
+    <h2>Container Image Registry</h2>
+    <ul>
+        <li>Registry: <strong>registry.redhat.io</strong></li>
+        <li>Username: &lt;your redhat username&gt;</li>
+        <li>Password: &lt;your redhat password&gt;</li>
+    </ul>
+
+    <p>At the end of the exam, <strong>reboot the system</strong>.</p>
+
+</body>
+</html>
