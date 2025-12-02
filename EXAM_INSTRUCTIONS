@@ -79,8 +79,8 @@ cd batch-2025-client
 
     <h2>Yum Repository URLs</h2>
     <ul>
-        <li>BaseOS: <a href="http://ec2-54-162-204-86.compute-1.amazonaws.com/BaseOs/" target="_blank">http://ec2-54-162-204-86.compute-1.amazonaws.com/BaseOs/</a></li>
-        <li>AppStream: <a href="http://ec2-54-162-204-86.compute-1.amazonaws.com/AppStream/" target="_blank">http://ec2-54-162-204-86.compute-1.amazonaws.com/AppStream/</a></li>
+        <li>BaseOS: <a href="http://34.226.194.70/repos/rhel9/BaseOS" target="_blank">http://34.226.194.70/repo/rhel9/BaseOs</a></li>
+        <li>AppStream: <a href="http://34.226.194.70/repos/rhel9/BaseOS" target="_blank">http://34.226.194.70/repo/rhel9/AppStream</a></li>
     </ul>
 
     <h2>Container Image Registry</h2>

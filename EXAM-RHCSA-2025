@@ -106,6 +106,13 @@
           <b>b)</b> As local user <b>linda</b>, create a container called <b>myweb</b> from image <b>webimage</b>. mount <b>/opt/process</b> inside container on <b>/mnt/new</b> and mount <b>/opt/action</b> on <b>/mnt/old</b>. The container port 8080 should be mapped with host port <b>8085</b>. Also, manage this container as systemd service and it should be boot persistent.
 </ul>
 </div>
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q3"> Done</label>
+    <label><input type="radio" name="q3"> Revisit</label>
+  </div>
+  <div class="task-title">5. Configure YUM repositories</div>
+  Repository URLs are listed on the Exam Instruction page.
 </div>
 </body>
 </html>
