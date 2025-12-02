@@ -6,28 +6,32 @@
 <style>
     body {
         font-family: Arial, sans-serif;
-        background: #f2f2f2;
+        background: #d6eaff;   /* Light blue background */
         padding: 20px;
         line-height: 1.6;
+        color: #003399;        /* Blue text */
     }
     h1 {
         text-align:center;
-        color:#2c3e50;
+        color:#003399;         /* Blue heading */
     }
     .task {
-        background: #fff;
+        background: #ffffff;   /* Keep task boxes white for clarity */
         padding: 15px;
         margin-bottom: 10px;
         border-radius: 6px;
-        box-shadow: 0 0 4px #ccc;
+        box-shadow: 0 0 4px #99badd; /* Soft blue shadow */
+        color: #003399;        /* Blue text inside */
     }
     .task-title {
         font-weight: bold;
         margin-bottom: 10px;
+        color: #003399;        /* Blue task titles */
     }
     .options {
         margin-bottom: 10px;
         font-size: 14px;
+        color: #003399;        /* Blue text for options */
     }
     .options label {
         margin-right: 20px;
