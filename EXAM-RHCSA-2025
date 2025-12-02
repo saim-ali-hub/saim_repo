@@ -102,7 +102,7 @@
   <div class="task-title">4. Container Management II</div>
   Create a rootless container using the following conditions.
   <ul>
-	  <b>a)</b> As local user <b>frank</b>, create a container called <b>container25</b> from image <b>webimage25</b>. Mount <b>/opt/web</b> inside container on <b>/opt/mydata</b> and mount <b>/opt/web</b> on <b>/var/www/html</b>. The container port <b>8080</b> should be mapped with host port <b>9092</b>. Also, manage this container as systemd service and it should be boot persistent.</br>
+	  <b>a)</b> As local user <b>frank</b>, create a container called <b>container25</b> from image <b>webimage25</b>. Mount <b>/opt/web</b> inside container on <b>/opt/mydata</b> and mount <b>/opt/web</b> on <b>/var/www/html</b>. The container port <b>8080</b> should be mapped with host port <b>9092</b>. Also, manage this container as systemd service and it should be boot persistent. Further create a file named <b>my_file1.pdf</b> in <b>/opt/process</b> that should available in <b>/mnt/new</b> inside container.</br>
           <b>b)</b> As local user <b>linda</b>, create a container called <b>myweb</b> from image <b>webimage</b>. mount <b>/opt/process</b> inside container on <b>/mnt/new</b> and mount <b>/opt/action</b> on <b>/mnt/old</b>. The container port 8080 should be mapped with host port <b>8085</b>. Also, manage this container as systemd service and it should be boot persistent.
 </ul>
 </div>
