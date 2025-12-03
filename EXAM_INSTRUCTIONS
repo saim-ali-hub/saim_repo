@@ -51,7 +51,7 @@ git clone https://github.com/saim-ali-hub/batch-2025-server.git
 cd batch-2025-server
 ./server-config.sh
         </pre>
-        <li>Open a browser and go to: <strong>&lt;server’s ip-address&gt;/saim_repo</strong>. Open each file in a new window.</li>
+        <li>Open a browser and go to: <strong>&lt;server’s ip-address&gt;/.saim_repo</strong>. Open each file in a new window.</li>
         <li>Read question number 1 and switch to clone-client.</li>
     </ul>
 
