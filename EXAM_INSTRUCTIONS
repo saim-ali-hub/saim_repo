@@ -7,12 +7,13 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            background: #d6eaff;   /* Light blue background */
+            padding: 20px;
             line-height: 1.6;
-            margin: 20px;
-            background-color: #f9f9f9;
+            color: #003399;        /* Blue text */
         }
         h1, h2, h3 {
-            color: #2c3e50;
+            color: #003399;
         }
         pre {
             background-color: #ecf0f1;
