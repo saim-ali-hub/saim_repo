@@ -16,7 +16,7 @@
             color: #003399;
         }
         pre {
-            background-color: blue;   /* Background becomes blue */
+            background-color: #5dade2;   /* Background becomes Soft blue */
             color: white;             /* Text becomes white */
             padding: 10px;
             border-radius: 5px;
