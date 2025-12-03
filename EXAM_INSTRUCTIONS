@@ -83,8 +83,8 @@ cd batch-2025-client
 
     <h2>Yum Repository URLs</h2>
     <ul>
-        <li>BaseOS: <a href="http://34.226.194.70/repos/rhel9/BaseOS" target="_blank">http://34.226.194.70/repo/rhel9/BaseOs</a></li>
-        <li>AppStream: <a href="http://34.226.194.70/repos/rhel9/BaseOS" target="_blank">http://34.226.194.70/repo/rhel9/AppStream</a></li>
+        <li>BaseOS: <a href="http://3.84.128.134/repos/rhel9/BaseOS/" target="_blank">http://3.84.128.134/repo/rhel9/BaseOs/</a></li>
+        <li>AppStream: <a href="http://3.84.128.134/repos/rhel9/BaseOS/" target="_blank">http://3.84.128.134/repo/rhel9/AppStream/</a></li>
     </ul>
 
     <h2>Container Image Registry</h2>
