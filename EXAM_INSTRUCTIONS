@@ -17,7 +17,8 @@
         }
         pre {
             background-color: #5dade2;   /* Background becomes Soft blue */
-            color: white;             /* Text becomes white */
+            color: black;              /* Text color */
+            font-weight: bold;         /* Make text bold */
             padding: 10px;
             border-radius: 5px;
             overflow-x: auto;
