@@ -100,8 +100,8 @@
 
 <div class="task">
   <div class="options">
-    <label><input type="radio" name="q22"> Done</label>
-    <label><input type="radio" name="q22"> Revisit</label>
+    <label><input type="radio" name="q4"> Done</label>
+    <label><input type="radio" name="q4"> Revisit</label>
   </div>
   <div class="task-title">4. Container Management II</div>
   Create a rootless container using the following conditions.
@@ -112,8 +112,8 @@
 </div>
 <div class="task">
   <div class="options">
-    <label><input type="radio" name="q3"> Done</label>
-    <label><input type="radio" name="q3"> Revisit</label>
+    <label><input type="radio" name="q5"> Done</label>
+    <label><input type="radio" name="q5"> Revisit</label>
   </div>
   <div class="task-title">5. Configure YUM repositories</div>
   Repository URLs are listed on the Exam Instruction page.
