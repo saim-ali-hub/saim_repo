@@ -125,7 +125,7 @@
     <label><input type="radio" name="q6"> Done</label>
     <label><input type="radio" name="q6"> Revisit</label>
   </div>
-  <div class="task-title">5. Configure chrony</div>
+  <div class="task-title">6. Configure chrony</div>
   Configure chrony such that time is synchronized with <b>"clone-server"</b> i.e., NTP server.
 </div>
 
