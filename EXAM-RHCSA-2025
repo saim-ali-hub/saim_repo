@@ -128,7 +128,28 @@
   <div class="task-title">6. Configure chrony</div>
   Configure chrony such that time is synchronized with <b>"clone-server"</b> i.e., NTP server.
 </div>
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q7"> Done</label>
+    <label><input type="radio" name="q7"> Revisit</label>
+  </div>
+  <div class="task-title">7. Configure autofs</div>
+  The share <b>clone-server-or-ip:/remoteusers/user1</b> should be mounted on <b>/rhome/user1</b>.
+</div>
 
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q8"> Done</label>
+    <label><input type="radio" name="q8"> Revisit</label>
+  </div>
+  <div class="task-title">8. Configure Autofs</div>
+  Automatically mount the NFS shares <b>nfs-server:/public</b> and <b>nfs-server:/private</b> on <b>/automount</b>.
+  <ul>
+    <li>The public share should be <b>read-only</b> for all users.</li>
+    <li>The private share should be <b>read-write</b> for all users.</li>
+    <li>Both shares should automatically unmount.</li>
+  </ul>
+</div>
 
 </body>
 </html>
