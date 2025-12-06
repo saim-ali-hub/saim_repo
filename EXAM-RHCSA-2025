@@ -78,8 +78,8 @@
   <ul>
     <li>IP: 192.168.100.130</li>
     <li>Netmask: 255.255.255.0</li>
-    <li>Gateway: 192.168.1.1</li>
-    <li>NameServer: 192.168.1.1</li>
+    <li>Gateway: 192.168.100.1</li>
+    <li>NameServer: 192.168.100.1</li>
     <li>Hostname: servera.example.com</li>
   </ul>
 </div>
