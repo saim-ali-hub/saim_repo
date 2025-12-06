@@ -134,7 +134,7 @@
     <label><input type="radio" name="q7"> Revisit</label>
   </div>
   <div class="task-title">7. Configure autofs</div>
-  The share <b>clone-server-or-ip:/remoteusers/user1</b> should be mounted on <b>/rhome/user1</b>.
+  Create <b>user1</b> with uid <b>4001</b>, using <b>/rhome</b> as a base directory but do not creat home directory. Make sure the share <b>clone-server-or-ip:/remoteusers/user1</b> should be mounted on <b>/rhome/user1</b>.
 </div>
 
 <div class="task">
