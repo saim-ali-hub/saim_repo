@@ -150,6 +150,22 @@
     <li>Both shares should automatically unmount.</li>
   </ul>
 </div>
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q9"> Done</label>
+    <label><input type="radio" name="q9"> Revisit</label>
+  </div>
+  <div class="task-title">9. Troubleshoot webserver</div>
+  If successfully running, the webserver should show <b>"I am enjoying RHCSA preparation"</b> on port <b>82</b> without changing any configuration.
+</div>
+<div class="task-title">12. Collaboration Directory</div>
+  <ul>
+    <li>Create directory <b>/developers</b>.</li>
+    <li>Full access to group <b>developers</b>, no access for others.</li>
+    <li>New files inherit group ownership <b>developers</b>.</li>
+    <li>Users cannot delete other user files.</li>
+  </ul>
+</div>
 
 </body>
 </html>
