@@ -165,7 +165,7 @@
   </div>
   <div class="task-title">10. Collaboration Directory</div>
   <ul>
-    <li>Create directory <b>/collaboration</b>.</li>
+    <li>Create directory <b>/project</b></li>
     <li>Full access to user and group, no access for others.</li>
     <li>New files inherit group ownership <b>developers</b>.</li>
     <li>Users cannot delete other user files.</li>
