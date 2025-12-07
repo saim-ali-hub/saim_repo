@@ -158,10 +158,15 @@
   <div class="task-title">9. Troubleshoot webserver</div>
   If successfully running, the webserver should show <b>"I am enjoying RHCSA preparation"</b> on port <b>82</b> without changing any configuration.
 </div>
-<div class="task-title">12. Collaboration Directory</div>
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q10"> Done</label>
+    <label><input type="radio" name="q10"> Revisit</label>
+  </div>
+  <div class="task-title">10. Collaboration Directory</div>
   <ul>
-    <li>Create directory <b>/developers</b>.</li>
-    <li>Full access to group <b>developers</b>, no access for others.</li>
+    <li>Create directory <b>/collaboration</b>.</li>
+    <li>Full access to user and group, no access for others.</li>
     <li>New files inherit group ownership <b>developers</b>.</li>
     <li>Users cannot delete other user files.</li>
   </ul>
