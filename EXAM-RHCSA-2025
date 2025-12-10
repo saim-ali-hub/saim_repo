@@ -171,6 +171,42 @@
     <li>Users cannot delete other user files.</li>
   </ul>
 </div>
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q11"> Done</label>
+    <label><input type="radio" name="q11"> Revisit</label>
+  </div>
+  <div class="task-title">11. User & Group Tasks</div>
+  Perform the following tasks:
+  <ul>
+    <li>Create group named <b>admins</b>.</li>
+    <li>create users <b>max</b>, <b>bob</b>, and <b>chris</b>.</li>
+    <li>Add max and bob as secondary members of <b>admins</b> group.</li>
+    <li>Ensure that <b>chris</b> does not have login shell and is not added to the <b>admins</b> group.</li>
+    <li>Configure passwordless sudo access for all members of the <b>admins</b> group so they can execute administrative commands without being prompted for a password.</li>
+    <li>Modify the umask for user <b>bob</b> so that all newly created files have the permissions where the user and group have read and write, and others have read-only access.</li>
+  </ul>
+</div>
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q12"> Done</label>
+    <label><input type="radio" name="q12"> Revisit</label>
+  </div>
+  <div class="task-title">12. Password Expiration</div>
+  To ensure security for user <b>max</b> perform following tasks:
+  <ul>
+    <li>Force user <b>max</b> to change his password at first login.</li>
+    <li>Set an account expiration period of <b>45 days</b> for the user <b>max</b>.</li> 
+  </ul>
+</div>
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q13"> Done</label>
+    <label><input type="radio" name="q13"> Revisit</label>
+  </div>
+  <div class="task-title">13. Password Policy</div>
+  Configure a global password policy so that all newly created users have a maximum password age of <b>90 days</b>.
+</div>
 
 </body>
 </html>
