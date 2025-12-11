@@ -207,6 +207,14 @@
   <div class="task-title">13. Password Policy</div>
   Configure a global password policy so that all newly created users have a maximum password age of <b>90 days</b>.
 </div>
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q14"> Done</label>
+    <label><input type="radio" name="q14"> Revisit</label>
+  </div>
+  <div class="task-title">14. Install Group Software</div>
+  Install the <b>RPM Development Tools</b> group package on the system.
+</div>
 
 </body>
 </html>
