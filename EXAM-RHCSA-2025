@@ -215,6 +215,39 @@
   <div class="task-title">14. Install Group Software</div>
   Install the <b>RPM Development Tools</b> group package on the system.
 </div>
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q15"> Done</label>
+    <label><input type="radio" name="q15"> Revisit</label>
+  </div>
+  <div class="task-title">15. System Tuning</div>
+  Configure the tuning profile to the recommended system profile.
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q16"> Done</label>
+    <label><input type="radio" name="q16"> Revisit</label>
+  </div>
+  <div class="task-title">16. Cron Jobs</div>
+  Perform following tasks:
+  <ul>
+    <li>
+      Create a cron job for user <b>bob</b> that runs every minute and execute the command:</br> 
+      <b>logger -i "I am preparing RHCSA9 Exam"</b> 
+    </li>
+    <li>Restrict the user <b>natasha</b> from creating any cron jobs.</li>
+  </ul>
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q17"> Done</label>
+    <label><input type="radio" name="q17"> Revisit</label>
+  </div>
+  <div class="task-title">17. Preserve Journals</div>
+  Redirect previous boot logs to <b>/var/log/journal/</b>.
+</div>
 
 </body>
 </html>
