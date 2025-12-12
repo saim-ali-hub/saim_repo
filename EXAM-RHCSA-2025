@@ -240,15 +240,6 @@
   </ul>
 </div>
 
-<div class="task">
-  <div class="options">
-    <label><input type="radio" name="q17"> Done</label>
-    <label><input type="radio" name="q17"> Revisit</label>
-  </div>
-  <div class="task-title">17. Preserve Journals</div>
-  Redirect previous boot logs to <b>/var/log/journal/</b>.
-</div>
-
 </body>
 </html>
 
