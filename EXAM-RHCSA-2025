@@ -239,6 +239,75 @@
     <li>Restrict the user <b>natasha</b> from creating any cron jobs.</li>
   </ul>
 </div>
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q17"> Done</label>
+    <label><input type="radio" name="q17"> Revisit</label>
+  </div>
+  <div class="task-title">17. Preserve Journals</div>
+  Redirect previous boot logs to <b>/var/log/journal/</b>.
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q18"> Done</label>
+    <label><input type="radio" name="q18"> Revisit</label>
+  </div>
+  <div class="task-title">18. Archive Creation</div>
+  Create an archive of <b>/usr/bin</b> named <b>/tmp/archive.tar</b> and then compress it using <b>bzip2</b>.
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q19"> Done</label>
+    <label><input type="radio" name="q19"> Revisit</label>
+  </div>
+  <div class="task-title">19. LVM Create & Extend</div>
+  <ul>
+    <li>Task 1: Create VG <b>vg2</b> on <b>/dev/sdb2</b>, create LV <b>lv2</b> of <b>300M</b>, format <b>ext4</b>, mount on <b>/app2</b>.</li>
+    <li>Task 2: Extend the filesystem to <b>500M</b> (450–500M acceptable).</li>
+  </ul>
+</div>
+
+<!-- Task 20 -->
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q20"> Done</label>
+    <label><input type="radio" name="q20"> Revisit</label>
+  </div>
+  <div class="task-title">20. LVM with specific extents</div>
+  <ul>
+    <li>Create PV on <b>/dev/sdb3</b> with PE size <b>8MiB</b> (i.e., create VG <b>vg3</b> configured for 8MiB PE).</li>
+    <li>Create LV <b>lv3</b> by assigning <b>50 extents</b>.</li>
+    <li>Format <b>lv3</b> with <b>ext4</b> and mount on <b>/app3</b>.</li>
+  </ul>
+</div>
+
+<!-- Task 21 -->
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q21"> Done</label>
+    <label><input type="radio" name="q21"> Revisit</label>
+  </div>
+  <div class="task-title">21. Create SWAP</div>
+  <ul>
+    <li>Create a <b>512 MB</b> swap partition on <b>/dev/sdb4</b>.</li>
+    <li>Enable it and ensure it is mounted permanently (persist in <b>/etc/fstab</b>).</li>
+  </ul>
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q22"> Done</label>
+    <label><input type="radio" name="q22"> Revisit</label>
+  </div>
+  <div class="task-title">22. LVM Shrink</div>
+  <ul>
+    <li>Create VG <b>vg1</b> on <b>/dev/sdb1</b>.</li>
+    <li>Create LV <b>lv1</b> of <b>400M</b>, format <b>ext4</b>, mount on <b>/app1</b>.</li>
+    <li>Shrink filesystem to <b>300M</b> (250–300M acceptable).</li>
+  </ul>
+</div>
 
 </body>
 </html>
