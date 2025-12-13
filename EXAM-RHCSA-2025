@@ -264,7 +264,7 @@
   </div>
   <div class="task-title">19. LVM Create & Extend</div>
   <ul>
-    <li>Task 1: Create VG <b>vg2</b> on <b>/dev/sdb1</b>, create LV <b>lv1</b> of <b>300M</b>, format <b>ext4</b>, mount on <b>/app1</b>.</li>
+    <li>Task 1: Create VG <b>vg1</b> on <b>/dev/sdb1</b>, create LV <b>lv1</b> of <b>300M</b>, format <b>ext4</b>, mount on <b>/app1</b>.</li>
     <li>Task 2: Extend the filesystem to <b>500M</b> (450–500M acceptable).</li>
   </ul>
 </div>
@@ -303,8 +303,8 @@
   </div>
   <div class="task-title">22. LVM Shrink</div>
   <ul>
-    <li>Create VG <b>vg2</b> on <b>/dev/sdc2</b>.</li>
-    <li>Create LV <b>lv2</b> of <b>400M</b>, format <b>ext4</b>, mount on <b>/app2</b>.</li>
+    <li>Create VG <b>vg3</b> on <b>/dev/sdc2</b>.</li>
+    <li>Create LV <b>lv3</b> of <b>400M</b>, format <b>ext4</b>, mount on <b>/app3</b>.</li>
     <li>Shrink filesystem to <b>300M</b> (250–300M acceptable).</li>
   </ul>
 </div>
