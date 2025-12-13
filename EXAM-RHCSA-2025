@@ -264,7 +264,7 @@
   </div>
   <div class="task-title">19. LVM Create & Extend</div>
   <ul>
-    <li>Task 1: Create VG <b>vg2</b> on <b>/dev/sdb2</b>, create LV <b>lv2</b> of <b>300M</b>, format <b>ext4</b>, mount on <b>/app2</b>.</li>
+    <li>Task 1: Create VG <b>vg2</b> on <b>/dev/sdb1</b>, create LV <b>lv1</b> of <b>300M</b>, format <b>ext4</b>, mount on <b>/app1</b>.</li>
     <li>Task 2: Extend the filesystem to <b>500M</b> (450–500M acceptable).</li>
   </ul>
 </div>
@@ -277,9 +277,9 @@
   </div>
   <div class="task-title">20. LVM with specific extents</div>
   <ul>
-    <li>Create PV on <b>/dev/sdb3</b> with PE size <b>8MiB</b> (i.e., create VG <b>vg3</b> configured for 8MiB PE).</li>
-    <li>Create LV <b>lv3</b> by assigning <b>50 extents</b>.</li>
-    <li>Format <b>lv3</b> with <b>ext4</b> and mount on <b>/app3</b>.</li>
+    <li>Create PV on <b>/dev/sdb2</b> with PE size <b>8MiB</b> (i.e., create VG <b>vg2</b> configured for 8MiB PE).</li>
+    <li>Create LV <b>lv2</b> by assigning <b>50 extents</b>.</li>
+    <li>Format <b>lv2</b> with <b>ext4</b> and mount on <b>/app2</b>.</li>
   </ul>
 </div>
 
@@ -291,7 +291,7 @@
   </div>
   <div class="task-title">21. Create SWAP</div>
   <ul>
-    <li>Create a <b>512 MB</b> swap partition on <b>/dev/sdb4</b>.</li>
+    <li>Create a <b>512 MB</b> swap partition on <b>/dev/sdc1</b>.</li>
     <li>Enable it and ensure it is mounted permanently (persist in <b>/etc/fstab</b>).</li>
   </ul>
 </div>
@@ -303,8 +303,8 @@
   </div>
   <div class="task-title">22. LVM Shrink</div>
   <ul>
-    <li>Create VG <b>vg1</b> on <b>/dev/sdb1</b>.</li>
-    <li>Create LV <b>lv1</b> of <b>400M</b>, format <b>ext4</b>, mount on <b>/app1</b>.</li>
+    <li>Create VG <b>vg2</b> on <b>/dev/sdc2</b>.</li>
+    <li>Create LV <b>lv2</b> of <b>400M</b>, format <b>ext4</b>, mount on <b>/app2</b>.</li>
     <li>Shrink filesystem to <b>300M</b> (250–300M acceptable).</li>
   </ul>
 </div>
