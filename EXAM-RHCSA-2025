@@ -316,7 +316,7 @@
   <div class="task-title">23. Manage permissions and user access</div>
   <ul>
     <li>
-      <b>22.a</b> Copy <code>/etc/fstab</code> to <code>/var/tmp</code> and configure permissions so that:
+      <b>23.a</b> Copy <code>/etc/fstab</code> to <code>/var/tmp</code> and configure permissions so that:
       <ul>
         <li>The file <code>/var/tmp/fstab</code> is owned by user <b>root</b>.</li>
         <li>The file belongs to group <b>root</b>.</li>
@@ -327,7 +327,7 @@
       </ul>
     </li>
     <li>
-      <b>22.b</b> As user <b>linda</b>, create directory <code>/tmp/data2</code> and give read & write access to <b>bob</b> on this directory
+      <b>23.b</b> As user <b>linda</b>, create directory <code>/tmp/data2</code> and give read & write access to <b>bob</b> on this directory
       <em>without</em> making him owner or adding him to the directory group; no access for others.
     </li>
   </ul>
