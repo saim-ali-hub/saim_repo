@@ -293,9 +293,9 @@
   <ul>
     <li>Create a <b>512 MB</b> swap partition on <b>/dev/sdc1</b>.</li>
     <li>Enable it and ensure it is mounted permanently (persist in <b>/etc/fstab</b>).</li>
+    <li>Make sure don't touh exiting swap space exit in your server</li>
   </ul>
 </div>
-
 <div class="task">
   <div class="options">
     <label><input type="radio" name="q22"> Done</label>
@@ -306,6 +306,30 @@
     <li>Create VG <b>vg3</b> on <b>/dev/sdc2</b>.</li>
     <li>Create LV <b>lv3</b> of <b>400M</b>, format <b>ext4</b>, mount on <b>/app3</b>.</li>
     <li>Shrink filesystem to <b>300M</b> (250–300M acceptable).</li>
+  </ul>
+</div>
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q23"> Done</label>
+    <label><input type="radio" name="q23"> Revisit</label>
+  </div>
+  <div class="task-title">23. Manage permissions and user access</div>
+  <ul>
+    <li>
+      <b>22.a</b> Copy <code>/etc/fstab</code> to <code>/var/tmp</code> and configure permissions so that:
+      <ul>
+        <li>The file <code>/var/tmp/fstab</code> is owned by user <b>root</b>.</li>
+        <li>The file belongs to group <b>root</b>.</li>
+        <li>The file is <b>not executable</b> by anyone.</li>
+        <li>The user <b>natasha</b> can <b>read and write</b> the file.</li>
+        <li>The user <b>harry</b> can <b>neither read nor write</b> the file.</li>
+        <li>All other users (current or future) can <b>read</b> the file.</li>
+      </ul>
+    </li>
+    <li>
+      <b>22.b</b> As user <b>linda</b>, create directory <code>/tmp/data2</code> and give read & write access to <b>bob</b> on this directory
+      <em>without</em> making him owner or adding him to the directory group; no access for others.
+    </li>
   </ul>
 </div>
 
