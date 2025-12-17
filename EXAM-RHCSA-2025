@@ -185,6 +185,10 @@
     <li>Ensure that <b>chris</b> does not have login shell and is not added to the <b>admins</b> group.</li>
     <li>Configure passwordless sudo access for all members of the <b>admins</b> group so they can execute administrative commands without being prompted for a password.</li>
     <li>Modify the umask for user <b>bob</b> so that all newly created files have the permissions where the user and group have read and write, and others have read-only access.</li>
+    <li>Set the permissions so that:<br>
+        <b>a)</b> All new creating files for user natasha as <b>-r------</b> as default permission.<br>
+        <b>b)</b> All new creating directories for user natasha as <b>dr-x------</b> as default permission.
+    </li>
   </ul>
 </div>
 <div class="task">
@@ -330,6 +334,34 @@
       <b>23.b</b> As user <b>linda</b>, create directory <code>/tmp/data2</code> and give read & write access to <b>bob</b> on this directory
       <em>without</em> making him owner or adding him to the directory group; no access for others.
     </li>
+  </ul>
+</div>
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q24"> Done</label>
+    <label><input type="radio" name="q24"> Revisit</label>
+  </div>
+  <div class="task-title">24. Use Find command</div>
+  <ul>
+    <li>i) Find all files under <b>/var/log/</b> which are newer than 5 days, long-list the output, and store it in <b>/tmp/file-logs</b>.</li>
+    <li>ii) Locate files larger than 1MB but less than 2MB under <b>/var/log</b> and copy them to <b>/backup/logfiles/</b>.</li>
+    <li>iii) Find all directories owned by user <b>linda</b> in <b>/opt</b> and copy them to <b>/var/tmp/linda</b>.</li>
+    <li>iv) Find all files with the setgid bit set anywhere under the <b>/usr</b> directory, display the output in long listing format, and store the output in <b>/tmp/setgid_files</b>.</li>
+    <li>v) Create a program named <b>myprogram</b> which finds directories owned by group <b>developers</b> and copies them to <b>/tmp/new_dir/</b>.</li>
+    <li>vi) Create a shell script <b>/tmp/myscript</b>. It should print "Hello Learners" only if user <b>natasha</b> executes the script. When someone else executes it, there should be no output.</li>
+  </ul>
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q25"> Done</label>
+    <label><input type="radio" name="q25"> Revisit</label>
+  </div>
+  <div class="task-title">25. Use Grep (Global Regular Expression)</div>
+  <ul>
+    <li>i) Remove all empty lines from <b>/etc/ssh/sshd_config</b>, ensure line numbers appear before each line, and redirect the filtered output to <b>/tmp/new_file</b>.</li>
+    <li>ii) Print the content of <b>/etc/ssh/sshd_config</b> but exclude commented and empty lines, and redirect the output to <b>/tmp/ssh-data</b>.</li>
+    <li>iii) Search for the string <b>'I am preparing RHCSA9 Exam'</b> from <b>/var/log/messages</b> and redirect the output to <b>/tmp/log_msg</b>.</li>
   </ul>
 </div>
 
