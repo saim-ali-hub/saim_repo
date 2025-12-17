@@ -316,9 +316,9 @@
   <div class="task-title">23. Manage permissions and user access</div>
   <ul>
     <li>
-      <b>23.a</b> Copy <code>/etc/fstab</code> to <code>/var/tmp</code> and configure permissions so that:
+      <b>23.a</b> Copy <b>/etc/fstab</b> to <b>/var/tmp</b> and configure permissions so that:
       <ul>
-        <li>The file <code>/var/tmp/fstab</code> is owned by user <b>root</b>.</li>
+        <li>The file <b>/var/tmp/fstab</b> is owned by user <b>root</b>.</li>
         <li>The file belongs to group <b>root</b>.</li>
         <li>The file is <b>not executable</b> by anyone.</li>
         <li>The user <b>natasha</b> can <b>read and write</b> the file.</li>
