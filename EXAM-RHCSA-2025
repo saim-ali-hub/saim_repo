@@ -332,6 +332,34 @@
     </li>
   </ul>
 </div>
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q25"> Done</label>
+    <label><input type="radio" name="q25"> Revisit</label>
+  </div>
+  <div class="task-title">25. Use Find and Grep</div>
+  <ul>
+    <li><b>25 (a) Find:</b>
+      <ul>
+        <li>i) Find all files under <code>/var/log/</code> which are newer than 5 days and store the output in <code>/tmp/dir-logs/</code>.</li>
+        <li>ii) Find all files under <code>/usr/share</code> that are newer than 30 days and copy them to <code>/tmp/new_dir</code>.</li>
+        <li>iii) Find only directories under <code>/usr/share</code> whose size is greater than 20K and less than 50K, and store the output in <code>/tmp/share_file</code>.</li>
+        <li>iv) Find all files owned by user <code>linda</code> in <code>/opt</code> and copy them to <code>/var/tmp/linda</code>.</li>
+        <li>v) Filter the string <code>Root</code> from <code>/etc/ssh/sshd_config</code> with line numbering and redirect into <code>/var/tmp/string_output</code>.</li>
+        <li>vi) Create a program named <code>myprogram</code> which finds files owned by group <code>admins</code> and copies them to <code>/tmp/new_dir</code>.</li>
+      </ul>
+    </li>
+    <li><b>25 (b): Grep (Global Regular Expression):</b>
+      <ul>
+        <li>i) Remove all empty lines from <code>/etc/ssh/sshd_config</code>, ensure line numbers appear before each line, and redirect the filtered output to <code>/tmp/new_file</code>.</li>
+        <li>ii) Print the content of <code>/etc/ssh/sshd_config</code> but exclude commented and empty lines, and redirect the output to <code>/tmp/ssh-data</code>.</li>
+        <li>iii) Search for the string <code>'Practicing For The Exam'</code> from <code>/var/log/messages</code> and redirect the output to <code>/tmp/log_msg</code>.</li>
+        <li>iv) Find all lines from <code>/etc/ssh/sshd_config</code> that contain the string <code>root</code>, including blank lines, with line numbers, preserve order, and store output in <code>/tmp/var/sshd_output</code>.</li>
+	<li>v) Find all lines from <code>/etc/ssh/sshd_config</code> that contain <code>root</code>, including blank lines, with line numbers, and store in <code>/var/tmp/sshd_output</code>.</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
 </body>
 </html>
