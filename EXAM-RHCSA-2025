@@ -344,7 +344,7 @@
   <div class="task-title">24. Use Find command</div>
   <ul>
     <li>i) Find all files under <b>/var/log/</b> which are newer than 5 days, long-list the output, and store it in <b>/tmp/file-logs</b>.</li>
-    <li>ii) Locate files larger than 1MB but less than 2MB under <b>/var/log</b> and copy them to <b>/backup/logfiles/</b>.</li>
+    <li>ii) Locate files larger than 1MB but less than 5MB under <b>/var/log</b> and copy them to <b>/backup/logfiles/</b>.</li>
     <li>iii) Find all directories owned by user <b>linda</b> in <b>/opt</b> and copy them to <b>/var/tmp/linda</b>.</li>
     <li>iv) Find all files with the setgid bit set anywhere under the <b>/usr</b> directory, display the output in long listing format, and store the output in <b>/tmp/setgid_files</b>.</li>
     <li>v) Create a program named <b>myprogram</b> which finds directories owned by group <b>developers</b> and copies them to <b>/tmp/new_dir/</b>.</li>
